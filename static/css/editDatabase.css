@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+#campus{
+    margin-left: -300px;
+}
+
+div.container{
+    margin-left: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:white;
+    padding:30px;
+    box-shadow: 0 50px 50px -50px darkslategrey;
+}
+div.container2{
+    margin-left: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:white;
+    padding:30px;
+    box-shadow: 0 50px 50px -50px darkslategrey;
+}
+div.container3{
+    margin-left: auto;
+    width: 1000px;
+    height: 700px;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:white;
+    padding:30px;
+    box-shadow: 0 50px 50px -50px darkslategrey;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+div.container div.add{
+    width:270px;
+    margin: auto;
+}
+div.container2 div.del{
+    width:270px;
+    margin: auto;
+}
+
+div.container div.add h3
+{
+    color: #1c1c1e;
+    margin-bottom:25px;
+}
+div.container2 div.del h3
+{
+    color: #1c1c1e;
+    margin-bottom:25px;
+}
+
+
+div.container div.add input{
+    border:none;
+    outline:none;
+    border-radius:0;
+    width:100%;
+    border-bottom: 2px solid #1c1c1e;
+    margin-bottom: 25px;
+    padding: 7px 0;
+    font-size: 14px;
+}
+div.container2 div.del input{
+    border:none;
+    outline:none;
+    border-radius:0;
+    width:100%;
+    border-bottom: 2px solid #1c1c1e;
+    margin-bottom: 25px;
+    padding: 7px 0;
+    font-size: 14px;
+}
+
+
+div.container div.add button{
+    color: white;
+    background-color:#1c1c1e;
+    border:none;
+    outline: none;
+    border-radius: 2px;;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+}
+div.container2 div.del button{
+    color: white;
+    background-color:#1c1c1e;
+    border:none;
+    outline: none;
+    border-radius: 2px;;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+}
+div.container3 button.del{
+    margin-left: 200px;
+    background-color:#1c1c1e;
+    border:none;
+    outline: none;
+    border-radius: 2px;;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+}
+div.container3 button.del :visited{
+    color: white;
+}
+div.container3 button.view{
+    margin-left: 380px;
+    color: white;
+    background-color:#1c1c1e;
+    border:none;
+    outline: none;
+    border-radius: 2px;;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+}
+
+#studentTable{
+        border-collapse: collapse;
+        margin: 25px 0;
+}
+#studentTable thead tr{
+    background-color: #e64122;
+    color:white;
+    text-align:left;
+    font-weight: bold;
+}
+      
+#studentTable th {
+    position: sticky;
+
+    padding:12px 15px;
+    width: 300px;
+        padding: 8px;
+}
+#studentTable tbody tr{
+    background-color:white;
+    border-bottom: 1px solid #dddddd;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:#313552;
+}
+
+.logo{
+    cursor: pointer;
+}
+li{
+   color:white;
+    display: inline-block;
+    padding:0px 20px;
+
+}
