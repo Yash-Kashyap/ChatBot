@@ -1,4 +1,25 @@
 function getBotResponse(input) {
+    var studentsData = JSON.parse(localStorage.getItem("studentsData"));
+    input = String(input).toLowerCase();
+    var student = studentsData.find(student => 
+        String(student.branch).toLowerCase() == input ||
+         String(student.email).toLowerCase() == input || 
+         String(student.fatherName).toLowerCase() == input ||
+        String(student.fatherNumber).toLowerCase() == input ||
+         String(student.studentName).toLowerCase() == input ||
+          String(student.section).toLowerCase() == input ||
+           String(student.studentNumber).toLowerCase() == input
+    )
+    if(student){
+        return ("\nName: " + student.studentName  +
+                ", Email: " + student.email  +
+                ", Branch: " + student.branch  +
+                ", Section: " + student.section  +
+                ", Contact Number: " + student.studentNumber  +
+                ", Father's Name: " + student.fatherName  +
+                ", Father's Number: " + student.fatherNumber 
+        );
+    }
     //rock paper scissors
     if (input == "rock") {
         return "paper";

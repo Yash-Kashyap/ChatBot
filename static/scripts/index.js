@@ -54,6 +54,7 @@ function viewStudent(){
     cell6.innerHTML = student.fatherName;
     var cell7 = row.insertCell(7);
     cell7.innerHTML = student.fatherNumber;
+    document.getElementById("displayBtn").disabled = true;
   });
 }
 
@@ -73,7 +74,7 @@ function clickme(){
         return;
 
     }
-    var studentsData = [
+   /* var studentsData = [
         {branch: "B.Tech (CSE)", email: "bishtdeepika028@gmail.com", fatherName: "BHAGWAN SINGH BISHT",fatherNumber:"8859132706", studentName: "DEEPIKA BISHT", section:"C", studentNumber:"8859132706", SerialNumber:1},
         {branch: "B.Tech (CSE)", email: "Sgurminder982@gmail.com", fatherName: "GURMINDER SINGH",fatherNumber:"7017898470", studentName: "PAWANDEEP KAUR", section:"A", studentNumber:"7017898470", SerialNumber:2},
         {branch: "B.Tech (CSE)", email: "joshiankit2002@gmail.com", fatherName: "GIRISH CHANDRA JOSHI",fatherNumber:"9410740227", studentName: "ANKIT JOSHI", section:"B", studentNumber:"8923219746", SerialNumber:3},
@@ -94,7 +95,7 @@ function clickme(){
     
     ];
     localStorage.setItem("studentsData", JSON.stringify(studentsData));
-    
+    */
 }
 
 
