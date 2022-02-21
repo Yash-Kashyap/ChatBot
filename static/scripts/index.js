@@ -62,7 +62,7 @@ function clickme(){
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
-    if(username == "" && password == "")
+    if(username == "admin" && password == "yashkhushi")
     {
         document.location.href = "adminHome.html";
         alert("login succesful :)");
