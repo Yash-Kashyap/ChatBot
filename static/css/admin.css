@@ -73,3 +73,19 @@ li{
     padding:0px 20px;
 
 }
+
+
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgoldenrod;
+    text-align: center;
+    border: 3px solid rgb(7, 7, 7);
+    padding: 10px;
+  }

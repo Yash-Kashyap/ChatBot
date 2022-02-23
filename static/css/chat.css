@@ -1,6 +1,6 @@
 .chat-bar-collapsible {
     position: fixed;
-    bottom: 0;
+    bottom: 45px;
     right: 50px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
@@ -170,3 +170,36 @@
         border-radius: 0px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgoldenrod;
+    text-align: center;
+    border: 3px solid rgb(7, 7, 7);
+    padding: 10px;
+  }
+  marquee {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(75, 1, 1);
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+  }
+  .new {
+    border-top: 2px dashed rgb(12, 9, 9);
+    margin-top: 2px;
+  }
